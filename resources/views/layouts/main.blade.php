@@ -116,7 +116,11 @@
   
                             <li class="nav-item"><a class="nav-link" href="blog.html">Pengumuman</a></li>      
                             
+<<<<<<< HEAD
                             <li class="nav-item"><a class="nav-link" href="{{route('dosens.index')}}">Lecturers</a></li>     
+=======
+                            <li class="nav-item"><a class="nav-link" href="teacher.html">Lecturers</a></li>     
+>>>>>>> f8d01cba6e6776a2c55d9654f8b157167c37a612
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dokumentasi</a>

@@ -23,15 +23,25 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="content-img wow fadeInLeft" data-wow-delay=".25s">
+<<<<<<< HEAD
                         <img src="{{ asset('assets/img/alumni/IMG_5605.jpg') }}" alt="">
+=======
+                            <img src="assets/img/alumni/01.jpg" alt="">
+>>>>>>> f8d01cba6e6776a2c55d9654f8b157167c37a612
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="content-info wow fadeInUp" data-wow-delay=".25s">
                             <div class="site-heading mb-3">
+<<<<<<< HEAD
                                 <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Cerita Para Alumni</span>
                                 <h2 class="site-title">
                                     Mari kita melihat sejenak  <span>Cerita Singkat Para Alumni</span> Angkatan 2021!
+=======
+                                <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Alumni Story</span>
+                                <h2 class="site-title">
+                                    Hear From Our <span>Latest 2024</span> Alumni Story!
+>>>>>>> f8d01cba6e6776a2c55d9654f8b157167c37a612
                                 </h2>
                             </div>
                             <p class="content-text">

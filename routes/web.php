@@ -5,7 +5,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\AdminLoginController;
 use App\Http\Controllers\AdminDashboardController;
 use App\Http\Controllers\GalleryController; // Tambahkan ini
+<<<<<<< HEAD
 use App\Http\Controllers\DosenController;
+=======
+>>>>>>> f8d01cba6e6776a2c55d9654f8b157167c37a612
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +26,10 @@ Route::get('/', function () {
 });
 
 Route::get('/galleries', [GalleryController::class, 'indexPublic'])->name('galleries.index');
+<<<<<<< HEAD
 Route::get('/dosenspublic', [DosenController::class, 'indexPublic'])->name('dosens.index');
+=======
+>>>>>>> f8d01cba6e6776a2c55d9654f8b157167c37a612
 
 // Route untuk login admin
 Route::get('/admin/login', [AdminLoginController::class, 'showLoginForm'])->name('admin.login');
@@ -48,6 +54,7 @@ Route::middleware(['auth:admin'])->group(function () {
     Route::patch('/admin/galleries/{gallery}', [GalleryController::class, 'update']); // Tambahkan ini jika Anda ingin mendukung PATCH
     Route::delete('/admin/galleries/{gallery}', [GalleryController::class, 'destroy'])->name('admin.galleries.destroy');
 
+<<<<<<< HEAD
     // Daftar semua dosen (READ)
     Route::get('/dosens', [DosenController::class, 'index'])->name('admin.dosens.index');
     Route::get('/dosens/create', [DosenController::class, 'create'])->name('admin.dosens.create');
@@ -58,6 +65,8 @@ Route::middleware(['auth:admin'])->group(function () {
     Route::patch('/dosens/{dosen}', [DosenController::class, 'update']); //Tambahkan ini jika ingin menggunakan PATCH method
     Route::delete('/dosens/{dosen}', [DosenController::class, 'destroy'])->name('admin.dosens.destroy');
 
+=======
+>>>>>>> f8d01cba6e6776a2c55d9654f8b157167c37a612
 });
 
 // Route untuk halaman statis lainnya (menggunakan cara yang lebih ringkas)

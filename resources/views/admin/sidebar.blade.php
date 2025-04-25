@@ -21,12 +21,15 @@
               <span class="nav-link-text ms-1">Galeri</span>
             </a>
           </li>
+<<<<<<< HEAD
           <li class="nav-item">
             <a class="nav-link text-dark" href="{{route('admin.dosens.index')}}">
               <i class="material-symbols-rounded opacity-5">person</i>  <!-- Ganti icon sesuai keinginan -->
               <span class="nav-link-text ms-1">Dosen</span>
             </a>
           </li>
+=======
+>>>>>>> f8d01cba6e6776a2c55d9654f8b157167c37a612
         <li class="nav-item">
           <a class="nav-link text-dark" href="../pages/tables.html">
             <i class="material-symbols-rounded opacity-5">table_view</i>
